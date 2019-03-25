@@ -22,7 +22,76 @@
 .App-link {
   color: #61dafb;
 }
+.navbar{
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.1);
+}
+.navbar-brand{
+  color: #EC7168 !important;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 24px !important;
+}
+.bg{
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.jumbotron {
+  padding: 0 !important;
+}
+.relative{
+  position: relative;
+}
+.overlay-text{
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  color: #FFF;
+  height: 75%;
+}
+.display-perso{
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.titleCard{
+  font-size: 18px;
+  font-weight: 700
+}
+.img-card{
+  height: 200px;
+  object-fit: contain;
+  background: #EC7168;
+  padding: 50px;
+}
+.full-width{
+  width: 100%;
+}
+/* MARGIN ET PADDING + ALIGN */
+.align{
+  text-align: center
+}
+.ma-thin{
+  margin: 5px;
+}
+.mb{
+  margin-bottom: 15px
+}
+.mb-large{
+  margin-bottom: 25px
+}
+.card-body{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.card{
+  height: 650px !important;
 
+}
+/* FIN */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
